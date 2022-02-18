@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="../css/calendar.css" />
+	  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	  <script type="text/javascript" src="../js/calendar.js"></script>
+	  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+</head>
+<body>
+    <div id="wrap">
+        <!------------------------- header ------------------------->
+        <div id="header">
+          <div class="header">
+            <div class="status_bar">
+              <div class="time">
+                <img src="../img/status_bar/Time Style.png" alt="time">
+              </div>
+              <div class="battery">
+                <img src="../img/status_bar/Cellular Connection.png" alt="cellular">
+                <img src="../img/status_bar/Wifi.png" alt="wifi">
+                <img src="../img/status_bar/Battery.png" alt="battery">
+              </div>
+            </div>
+            <div class="header_wrap">
+              <a href="" class="down"><img src="../img/calendar/ico_down.png" alt="날짜선택 버튼"></a>
+                <div class="year">
+                    <div class="year_num"></div>
+                    <div class="month" href="javascript:thismonth()">월</div>
+                </div>
+                <a href="Main-next.html" class="close"><img src="../img/btn_close.png" alt="설문 닫기 버튼" /></a>
+            </div>
+          </div>
+        </div>
+        <!----------------------- container ------------------------>
+        <div id="container">
+          <div class="cal-slider">
+            <!-- day -->
+            <div class="cal-wrapper">
+              <div class="days">
+                  <div class="day">일</div>
+                  <div class="day">월</div>
+                  <div class="day">화</div>
+                  <div class="day">수</div>
+                  <div class="day">목</div>
+                  <div class="day">금</div>
+                  <div class="day">토</div>
+              </div>
+              <div class="dates"></div>
+            </div>
+          </div>
+          <div class="cal-slider">
+            <!-- day -->
+            <div class="cal-wrapper">
+              <div class="days">
+                  <div class="day">일</div>
+                  <div class="day">월</div>
+                  <div class="day">화</div>
+                  <div class="day">수</div>
+                  <div class="day">목</div>
+                  <div class="day">금</div>
+                  <div class="day">토</div>
+              </div>
+              <div class="dates"></div>
+            </div>
+          </div>
+          <div class="cal-slider">
+            <!-- day -->
+            <div class="cal-wrapper">
+              <div class="days">
+                  <div class="day">일</div>
+                  <div class="day">월</div>
+                  <div class="day">화</div>
+                  <div class="day">수</div>
+                  <div class="day">목</div>
+                  <div class="day">금</div>
+                  <div class="day">토</div>
+              </div>
+              <div class="dates"></div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+</body>
+</html>
